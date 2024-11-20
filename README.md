@@ -22,7 +22,7 @@ D:.
 ```
 
 **folder:**
-di mana folder client berisi program frontend kalian, dan folder server berisi program backend kalian.
+di mana folder `client` berisi program `frontend` kalian, dan folder `server` berisi program `backend` kalian.
 
 kalian bebas menambahkan file apapun untuk membuat penugasan ini di folder client maupun server
 
@@ -31,6 +31,7 @@ kalian bebas menambahkan file apapun untuk membuat penugasan ini di folder clien
 - cara menjalankan program saat sudah jadi secara general adalah
   - setup mission planner dan run mission
   - set mission planner menjadi tcp host agar dapat terkoneksi dengan backend
+  - jalankan backend
   - jalankan frontend
 
 # Setup Backend
@@ -61,6 +62,8 @@ menjadi
 class Parameters(MutableMapping, HasObservers)
 ```
 
+selesai, selamat ngoding backend!
+
 # Setup Mission Planner
 
 Buka mission planner dan connect ke plane seperti biasanya
@@ -73,3 +76,17 @@ Setelah itu set sebagai berikut
 
 <img src="./img/tcphost.png" />
 Setelah semuanya telah disetup, bisa langsung jalankan backend dan setelah itu buka frontend
+
+# Extension di VSCode untuk mempermudah pengerjaan
+
+### Live Server
+
+<img src="./img/ext-liveserver.png" />
+
+untuk memudahkan kita bisa menggunakan live server saat mendevelop frontend. live server membuat kita bisa melihat perubahan secara langsung ketika kita mengubah file di client nantinya tanpa harus reload webnya tiap saat
+
+### Thunder Client
+
+<img src="./img/ext-thunderclient.png" />
+
+untuk memudahkan saat mendevelop api / server. Kita bisa testing endpoint yang sudah kita buat langsung di vscode dengan menggunakan thunder client
