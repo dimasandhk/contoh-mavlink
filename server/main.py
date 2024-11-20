@@ -1,6 +1,5 @@
 from dronekit import connect
 import time
-from pymavlink import mavutil
 
 vehicle = connect("tcp:127.0.0.1:14550", wait_ready=True)
 vehicle.wait_ready("autopilot_version")

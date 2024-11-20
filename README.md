@@ -1,3 +1,31 @@
+# Penugasan Flask + Mavlink serta Integrasi
+
+struktur folder:
+
+```
+D:.
+│   .gitignore
+│   README.md
+│   requirements.txt
+│
+├───client
+│       index.html
+│       main.js
+│
+├───img
+│       output.png
+│       setting.png
+│       tcphost.png
+│
+└───server
+        main.py
+```
+
+**folder:**
+di mana folder client berisi program frontend kalian, dan folder server berisi program backend kalian.
+
+kalian bebas menambahkan file apapun untuk membuat penugasan ini di folder client maupun server
+
 # Setup Program
 
 1. Clone repo ini
