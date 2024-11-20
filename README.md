@@ -26,7 +26,14 @@ di mana folder client berisi program frontend kalian, dan folder server berisi p
 
 kalian bebas menambahkan file apapun untuk membuat penugasan ini di folder client maupun server
 
-# Setup Program
+**general flow:**
+
+- cara menjalankan program saat sudah jadi secara general adalah
+  - setup mission planner dan run mission
+  - set mission planner menjadi tcp host agar dapat terkoneksi dengan backend
+  - jalankan frontend
+
+# Setup Backend
 
 1. Clone repo ini
 2. Jalankan `python -m venv venv` lalu install libraries dengan `pip install -r requirements.txt`
@@ -65,8 +72,4 @@ Lalu ctrl+f dan pilih mavlink, terdapat di kolom paling kiri urutan ke 6 dari at
 Setelah itu set sebagai berikut
 
 <img src="./img/tcphost.png" />
-Setelah semuanya telah disetup, bisa langsung jalankan `contoh_penggunaan.py`
-
-# Output
-
-<img src="./img/output.png" />
+Setelah semuanya telah disetup, bisa langsung jalankan backend dan setelah itu buka frontend
